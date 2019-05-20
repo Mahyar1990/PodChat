@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PodChat_Example' do
+  pod 'PodChat', :path => '../'
+
+  target 'PodChat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
