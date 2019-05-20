@@ -1,0 +1,22 @@
+{
+  "name": "PodChat",
+  "version": "0.1.0",
+  "summary": "A short description of PodChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mahyar1990/PodChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mahyar1990": "mahyarjananeh289@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mahyar1990/PodChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodChat/Classes/**/*"
+}

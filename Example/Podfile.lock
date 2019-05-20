@@ -1,0 +1,16 @@
+PODS:
+  - PodChat (0.1.0)
+
+DEPENDENCIES:
+  - PodChat (from `../`)
+
+EXTERNAL SOURCES:
+  PodChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodChat: 59047f84c41292805d856aec778cbc586240d25a
+
+PODFILE CHECKSUM: da7fac73a4d6e7198a4361c9f39fe34fd41ca36a
+
+COCOAPODS: 1.6.2
