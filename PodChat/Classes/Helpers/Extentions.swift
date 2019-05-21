@@ -7,11 +7,9 @@
 //
 
 import Foundation
-
 import SwiftyJSON
-
-import FanapPodAsyncSDK
-
+//import FanapPodAsyncSDK
+import PodAsync
 
 extension JSON {
     mutating func appendIfArray(json: JSON) {

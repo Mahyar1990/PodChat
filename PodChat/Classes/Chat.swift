@@ -9,7 +9,6 @@
 import Foundation
 import Contacts
 import CoreData
-
 import Alamofire
 import SwiftyJSON
 //import SwiftyBeaver

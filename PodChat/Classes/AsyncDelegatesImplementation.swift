@@ -38,6 +38,7 @@ extension Chat: AsyncDelegates {
     
     public func asyncStateChanged(socketState: Int, timeUntilReconnect: Int, deviceRegister: Bool, serverRegister: Bool, peerId: Int) {
         let logMsg: String = "Chat state changed: \n|| socketState = \(socketState) \n|| timeUntilReconnect = \(timeUntilReconnect) \n|| deviceRegister = \(deviceRegister) \n|| serverRegister = \(serverRegister)"
+        print("logMsg:\n\(logMsg)")
 //        log.verbose(logMsg, context: "Chat: DelegateComesFromAsync")
         
         

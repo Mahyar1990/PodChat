@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		363F19848155D4647CFA15E5D9769C5F /* PodChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0E170AD8F67A65F3A001A8B21EE3 /* PodChat-dummy.m */; };
+		3E8A97DF22940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A97DD22940F8700F5308D /* CacheDataModel.xcdatamodeld */; };
+		3E8A97E022940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A97DD22940F8700F5308D /* CacheDataModel.xcdatamodeld */; };
+		3E8A97E122940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A97DD22940F8700F5308D /* CacheDataModel.xcdatamodeld */; };
 		3ED554802292E08B0062DD10 /* InputModels in Resources */ = {isa = PBXBuildFile; fileRef = 3ED554742292E08A0062DD10 /* InputModels */; };
-		3ED554812292E08B0062DD10 /* CacheDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ED554752292E08A0062DD10 /* CacheDataModel.xcdatamodeld */; };
 		3ED554822292E08B0062DD10 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED554772292E08A0062DD10 /* Chat.swift */; };
 		3ED554832292E08B0062DD10 /* CoreDataCacheModels in Resources */ = {isa = PBXBuildFile; fileRef = 3ED554782292E08A0062DD10 /* CoreDataCacheModels */; };
 		3ED554842292E08B0062DD10 /* AsyncDelegatesImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED554792292E08A0062DD10 /* AsyncDelegatesImplementation.swift */; };
@@ -52,8 +54,8 @@
 		18B04AB396F23F2EF30CB7D1E82E616A /* Pods_PodChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33757A14246F258FE99865CE82B598DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8A97DE22940F8700F5308D /* CacheDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CacheDataModel.xcdatamodel; sourceTree = "<group>"; };
 		3ED554742292E08A0062DD10 /* InputModels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = InputModels; path = PodChat/Classes/InputModels; sourceTree = "<group>"; };
-		3ED554762292E08A0062DD10 /* CacheDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CacheDataModel.xcdatamodel; sourceTree = "<group>"; };
 		3ED554772292E08A0062DD10 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chat.swift; path = PodChat/Classes/Chat.swift; sourceTree = "<group>"; };
 		3ED554782292E08A0062DD10 /* CoreDataCacheModels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CoreDataCacheModels; path = PodChat/Classes/CoreDataCacheModels; sourceTree = "<group>"; };
 		3ED554792292E08A0062DD10 /* AsyncDelegatesImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncDelegatesImplementation.swift; path = PodChat/Classes/AsyncDelegatesImplementation.swift; sourceTree = "<group>"; };
@@ -123,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3ED554792292E08A0062DD10 /* AsyncDelegatesImplementation.swift */,
-				3ED554752292E08A0062DD10 /* CacheDataModel.xcdatamodeld */,
+				3E8A97DD22940F8700F5308D /* CacheDataModel.xcdatamodeld */,
 				3ED554772292E08A0062DD10 /* Chat.swift */,
 				3ED5547A2292E08A0062DD10 /* ChatProtocols.swift */,
 				3ED554782292E08A0062DD10 /* CoreDataCacheModels */,
@@ -401,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8A97E022940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */,
 				D3E308D282F9D6AD433C372AD7E360CA /* Pods-PodChat_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8A97E122940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */,
 				B9A45C75AAFC4B602FF3E07AF81C4D60 /* Pods-PodChat_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8A97DF22940F8700F5308D /* CacheDataModel.xcdatamodeld in Sources */,
 				363F19848155D4647CFA15E5D9769C5F /* PodChat-dummy.m in Sources */,
 				3ED554852292E08B0062DD10 /* ChatProtocols.swift in Sources */,
 				3ED554822292E08B0062DD10 /* Chat.swift in Sources */,
-				3ED554812292E08B0062DD10 /* CacheDataModel.xcdatamodeld in Sources */,
 				3ED554842292E08B0062DD10 /* AsyncDelegatesImplementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -805,12 +809,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3ED554752292E08A0062DD10 /* CacheDataModel.xcdatamodeld */ = {
+		3E8A97DD22940F8700F5308D /* CacheDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3ED554762292E08A0062DD10 /* CacheDataModel.xcdatamodel */,
+				3E8A97DE22940F8700F5308D /* CacheDataModel.xcdatamodel */,
 			);
-			currentVersion = 3ED554762292E08A0062DD10 /* CacheDataModel.xcdatamodel */;
+			currentVersion = 3E8A97DE22940F8700F5308D /* CacheDataModel.xcdatamodel */;
 			name = CacheDataModel.xcdatamodeld;
 			path = PodChat/Classes/CacheDataModel.xcdatamodeld;
 			sourceTree = "<group>";

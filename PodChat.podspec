@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodChat'
-  s.version          = '0.4.8'
+  s.version          = '0.4.8.1'
   s.summary          = 'Fanap Pod Chat SDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,8 @@ s.description      = 'Fanap\'s POD Chat SDK, that implements all the necessary t
   s.ios.deployment_target = '11.0'
   s.swift_version = '4.2'
   
-  s.source_files = 'PodChat/Classes/**/*'
+  s.source_files = 'PodChat/Classes/**/*.{h,m,swift,xcdatamodeld}'
+  s.resources = 'PodChat/Classes/CacheDataModel*.xcdatamodeld'
   
   # s.resource_bundles = {
   #   'PodChat' => ['PodChat/Assets/*.png']
